@@ -1,54 +1,16 @@
-<<<<<<< HEAD
-# NitroStack Starter Template
+# NTRO-crypto-tracing
 
-Minimal template for learning NitroStack fundamentals with a calculator-focused
-MCP server and basic widgets.
+AI-agent powered dark web crypto-tracing assistant — an MCP server exposing on-chain clustering, risk scoring, and OSINT correlation tools so investigators can trace and de-anonymize threat actors conversationally. Built for SIH26151 (NTRO) on NitroCloud.
 
-## What This Template Includes
+## What This Project Includes
 
-- `calculator` module with tools, resources, and prompts
-- TypeScript + Zod validation setup
-- Widget-ready project structure
-- Production-friendly npm scripts
+- **Dark Web Intelligence**: OSINT scraping tools for `.onion` text dumps and threat actor dossiers.
+- **De-Anonymization Engine**: SSL Certificate and Shodan/Censys infrastructure correlation tools.
+- **Multi-Hop Crypto Tracing**: Transaction graph tracing and VASP off-ramp detection tools.
+- **Interactive UI Widgets**: NitroStack visual components for node graphs and threat maps.
 
 ## Quick Start
 
 ```bash
-npx @nitrostack/cli init my-server --template typescript-starter
-cd my-server
+npm install
 npm run dev
-```
-
-## Common Commands
-
-```bash
-npm run dev
-npm run build
-npm start
-```
-
-## NitroStudio
-
-NitroStudio is the recommended way to test and debug this template during
-development.
-
-- Download: <https://nitrostack.ai/studio>
-- Studio: <https://nitrostack.ai/studio>
-
-## Links
-
-- Docs: <https://docs.nitrostack.ai>
-- Templates docs: <https://docs.nitrostack.ai/templates/01-starter-template>
-- Main repository: <https://github.com/nitrocloudofficial/nitrostack>
-
-## Community
-
-- Discord: <https://discord.gg/uVWey6UhuD>
-- X: <https://x.com/nitrostackai>
-- YouTube: <https://www.youtube.com/@nitrostackai>
-- LinkedIn: <https://linkedin.com/company/nitrostack-ai/>
-- GitHub: <https://github.com/nitrostackai>
-=======
-# NTRO-crypto-tracing
-AI-agent powered dark web crypto-tracing assistant — an MCP server exposing on-chain clustering, risk scoring, and OSINT correlation tools so investigators can trace and de-anonymize threat actors conversationally. Built for SIH26151 (NTRO) on NitroCloud.
->>>>>>> upstream/main
