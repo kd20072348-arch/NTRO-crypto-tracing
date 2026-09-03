@@ -1,7 +1,7 @@
 'use client';
 
 import { WidgetLayout } from '@nitrostack/widgets';
-
+import './globals.css';
 
 export default function RootLayout({
   children,
@@ -10,9 +10,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, padding: 0, fontFamily: 'system-ui, sans-serif' }}>
+      <head>
+        <title>
+          NTRO // Cyber Intelligence
+        </title>
+      </head>
+      <body>
         <WidgetLayout>{children}</WidgetLayout>
       </body>
     </html>
   );
 }
+
+
+
