@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "widgets": [
+    {
+      "uri": "/infra-fingerprint-map",
+      "name": "Infrastructure Fingerprint",
+      "description": "Displays infrastructure correlation results.",
+      "tags": ["deanonymization", "infrastructure", "security"]
+    },
+    {
+      "uri": "/threat-actor-dossier",
+      "name": "Threat Actor Dossier",
+      "description": "Displays extracted darkweb threat actor intelligence.",
+      "tags": ["darkweb", "threat-intelligence", "security"]
+    }
+  ],
+  "generatedAt": "2026-09-03T00:00:00.000Z"
+}
+
