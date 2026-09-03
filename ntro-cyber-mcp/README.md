@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NitroStack Starter Template
 
 Minimal template for learning NitroStack fundamentals with a calculator-focused
@@ -48,7 +47,3 @@ development.
 - YouTube: <https://www.youtube.com/@nitrostackai>
 - LinkedIn: <https://linkedin.com/company/nitrostack-ai/>
 - GitHub: <https://github.com/nitrostackai>
-=======
-# NTRO-crypto-tracing
-AI-agent powered dark web crypto-tracing assistant — an MCP server exposing on-chain clustering, risk scoring, and OSINT correlation tools so investigators can trace and de-anonymize threat actors conversationally. Built for SIH26151 (NTRO) on NitroCloud.
->>>>>>> upstream/main
