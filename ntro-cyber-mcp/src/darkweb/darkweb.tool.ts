@@ -1,10 +1,10 @@
-import { tool, z } from '@nitrostack/core'; // <--- Lowercase 'tool'
+import { ToolDecorator as Tool, z } from '@nitrostack/core'; // <--- Lowercase 'tool'
 import { DatabaseService } from '../database/database.service';
 
 export class DarkwebTools {
   constructor(private readonly db: DatabaseService) {}
 
-  @tool({                                   // <--- Use @tool
+  @Tool({                                   // <--- Use @tool
     name: 'scrape_onion_dump',
     description: 'Parses raw HTML or plain text from darkweb forum dumps.',
     inputSchema: z.object({
@@ -19,7 +19,7 @@ export class DarkwebTools {
     };
   }
 
-  @tool({                                   // <--- Use @tool
+  @Tool({                                   // <--- Use @tool
     name: 'get_onion_site_metadata',
     description: 'Retrieves stored server metadata for a target hidden service.',
     inputSchema: z.object({

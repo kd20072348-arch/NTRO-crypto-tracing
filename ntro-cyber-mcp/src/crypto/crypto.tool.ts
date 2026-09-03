@@ -1,10 +1,10 @@
-import { tool, Widget, z } from '@nitrostack/core'; // <--- Lowercase 'tool'
+import { ToolDecorator as Tool, Widget, z } from '@nitrostack/core'; // <--- Lowercase 'tool'
 import { DatabaseService } from '../database/database.service';
 
 export class CryptoTraceTools {
   constructor(private readonly db: DatabaseService) {}
 
-  @tool({                                           // <--- Use @tool
+  @Tool({                                           // <--- Use @tool
     name: 'trace_multi_hop_flow',
     description: 'Traces N-level transaction hops for a target BTC/ETH wallet.',
     inputSchema: z.object({
@@ -21,7 +21,7 @@ export class CryptoTraceTools {
     };
   }
 
-  @tool({                                           // <--- Use @tool
+  @Tool({                                           // <--- Use @tool
     name: 'detect_wallet_cluster',
     description: 'Analyzes co-spending heuristics across multiple wallets.',
     inputSchema: z.object({
