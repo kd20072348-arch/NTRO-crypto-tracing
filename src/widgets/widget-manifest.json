@@ -12,6 +12,24 @@
       "name": "Threat Actor Dossier",
       "description": "Displays extracted darkweb threat actor intelligence.",
       "tags": ["darkweb", "threat-intelligence", "security"]
+    },
+    {
+      "uri": "/interactive-mixer-graph",
+      "name": "Interactive Mixer Graph",
+      "description": "Displays mixer and peeling-chain transaction hops.",
+      "tags": ["crypto", "graph", "tracing"]
+    },
+    {
+      "uri": "/crypto-trace-result",
+      "name": "Crypto Trace Result",
+      "description": "Displays the result of a multi-hop wallet trace.",
+      "tags": ["crypto", "tracing"]
+    },
+    {
+      "uri": "/wallet-cluster-result",
+      "name": "Wallet Cluster Result",
+      "description": "Displays wallets grouped by co-spending analysis.",
+      "tags": ["crypto", "wallets", "clustering"]
     }
   ],
   "generatedAt": "2026-09-03T00:00:00.000Z"
