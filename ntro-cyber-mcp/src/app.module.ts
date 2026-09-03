@@ -1,10 +1,17 @@
-// src/app.module.ts
 import { Module } from '@nitrostack/core';
+import { DatabaseModule } from './database/database.module';
 import { DarkwebModule } from './darkweb/darkweb.module';
 import { DeAnonymizeModule } from './deanonymize/deanonymize.module';
-import { CryptoTraceModule } from './crypto/crypto.module';
+import { CryptoModule } from './crypto/crypto.module';
 
 @Module({
-  imports: [DarkwebModule, DeAnonymizeModule, CryptoTraceModule]
+  name: 'app',
+  description: 'NTRO Darkweb & Crypto Tracing Intelligence Engine',
+  imports: [
+    DatabaseModule,
+    DarkwebModule,
+    DeAnonymizeModule,
+    CryptoModule,
+  ],
 })
 export class AppModule {}
